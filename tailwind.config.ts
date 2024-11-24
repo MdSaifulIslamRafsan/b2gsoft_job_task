@@ -18,6 +18,10 @@ export default {
 
        }
       },
+      fontFamily: {
+        pacifico: ["var(--font-pacifico)", "cursive"],
+        manrope: ["var(--font-Manrope)", "cursive"],
+      },
     },
   },
   plugins: [],
