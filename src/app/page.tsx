@@ -1,8 +1,9 @@
+import BigDeal from "@/components/HomePage/BigDeal";
 
 export default function Home() {
   return (
-    <div className="">
-    
-    </div>
+    <>
+      <BigDeal></BigDeal>
+    </>
   );
 }

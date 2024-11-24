@@ -31,7 +31,9 @@ export default function RootLayout({
         className={`${Manrope.variable}  ${Pacifico.variable} antialiased`}
       >
           <Navbar></Navbar>
-        {children}
+          <main className="container mx-auto py-10 px-4 lg:px:14">
+            {children}
+          </main>
       </body>
     </html>
   );
