@@ -4,11 +4,11 @@ import { MdArrowOutward } from "react-icons/md";
 const Banner : React.FC = () => {
   return (
     <section className="bg-cover bg-center bg-no-repeat bg-[url('/assets/hero.png')] h-[500px] flex justify-center items-center">
-      <div className="font-manrope text-white space-y-5 flex items-center flex-col">
+      <div className="font-manrope text-center px-4 text-white space-y-5 flex items-center flex-col">
         <h3 className="text-2xl lg:text-4xl font-medium">
         Elevate Your Everyday Style
         </h3>
-        <p>
+        <p className="text-xs md:text-base">
         Discover the Latest Trends in Sustainable Fashion
         </p>
         <div className="flex items-center">
