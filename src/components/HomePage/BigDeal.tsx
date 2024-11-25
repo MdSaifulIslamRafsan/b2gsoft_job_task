@@ -15,7 +15,7 @@ const BigDeal: React.FC = () => {
         <div className="flex items-center">
           <Link
             href="/"
-            className="bg-primary-500 py-2 px-5 font-extralight inline-block rounded-full text-lg text-white"
+            className="bg-primary-500 py-2 px-5 font-medium inline-block rounded-full text-lg text-white"
           >
             Shop Now
           </Link>
