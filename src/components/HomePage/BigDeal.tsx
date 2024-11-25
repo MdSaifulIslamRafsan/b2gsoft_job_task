@@ -5,7 +5,7 @@ import Link from "next/link";
 const BigDeal: React.FC = () => {
   return (
     <section className="flex flex-col lg:flex-row justify-between items-center gap-10 bg-primary-100 px-10">
-      <div className="font-manrope space-y-5">
+      <div className="font-manrope pt-5 lg:pt-0 space-y-5">
         <h3 className="font-pacifico text-2xl lg:text-4xl font-medium text-primary-700">
           Big Deal
         </h3>

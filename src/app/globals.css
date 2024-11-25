@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 25px;
+  }
+
+   
+  .swiper-pagination-bullet{
+    background: rgb(146, 144, 159) !important;
+    padding: 5px 10px ;
+    border-radius: 5px !important;
+  }
+  .swiper-pagination-bullet-active{
+    background: #7E53D4 !important;
+    padding: 5px 20px ;
+
+  }
