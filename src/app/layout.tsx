@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/sharePage/Navbar";
+import Footer from "@/components/sharePage/Footer";
 
 
 const Pacifico = localFont({
@@ -33,6 +34,7 @@ export default function RootLayout({
           <Navbar></Navbar>
          
             {children}
+            <Footer></Footer>
       </body>
     </html>
   );
