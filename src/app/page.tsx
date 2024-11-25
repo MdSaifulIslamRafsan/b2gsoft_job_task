@@ -1,6 +1,7 @@
 import Banner from "@/components/HomePage/Banner/Banner";
 import Service from "@/components/HomePage/Banner/Service";
 import BigDeal from "@/components/HomePage/BigDeal";
+import SummerBigDealProducts from "@/components/HomePage/SummerBigDealProducts";
 import Collection from "@/components/HomePage/Collection";
 
 const Home: React.FC = () => {
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <main className="container mx-auto py-5 px-4 lg:px-14">
         <BigDeal></BigDeal>
         <Collection></Collection>
+        <SummerBigDealProducts></SummerBigDealProducts>
       </main>
     </>
   );
