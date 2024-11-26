@@ -6,6 +6,8 @@ export interface summerProductType {
     discount: string;
     rating : number;
   }
+
+  
 export const summerProducts :  summerProductType[] = [
     {
       id: 1,
