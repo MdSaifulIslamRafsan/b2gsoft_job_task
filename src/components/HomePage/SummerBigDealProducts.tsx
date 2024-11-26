@@ -51,7 +51,7 @@ const SummerBigDealProducts: React.FC = () => {
         >
           {summerProducts.map((product: summerProductType) => (
             <SwiperSlide key={product.id} className="flex justify-center py-2">
-              <div className="  shadow-md rounded-lg overflow-hidden w-full max-w-xs">
+              <Link href={`/pages/product/${product.id}`} className="  shadow-md rounded-lg overflow-hidden w-full max-w-xs">
                 <div className="relative bg-primary-100">
                   <Image
                     width={500}
@@ -86,7 +86,7 @@ const SummerBigDealProducts: React.FC = () => {
                     Add to Cart
                   </button>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -111,7 +111,7 @@ const SummerBigDealProducts: React.FC = () => {
                 key={product.id}
                 className="flex justify-center py-2"
               >
-                <div className="  shadow-md rounded-lg overflow-hidden w-full max-w-xs">
+                <Link href={`/pages/product/${product.id}`} className="shadow-md rounded-lg overflow-hidden w-full max-w-xs">
                   <div className="relative bg-primary-100">
                     <Image
                       width={500}
@@ -146,7 +146,7 @@ const SummerBigDealProducts: React.FC = () => {
                       Add to Cart
                     </button>
                   </div>
-                </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

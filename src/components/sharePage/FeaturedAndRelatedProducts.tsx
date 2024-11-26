@@ -57,7 +57,7 @@ const FeaturedAndRelatedProducts : React.FC<FeaturedAndRelatedProductsProps> = (
         >
           {featuredAndRelatedProducts.map((product: FeaturedAndRelatedProductType) => (
             <SwiperSlide key={product.id} className="flex justify-center py-2">
-              <div className="  shadow-md rounded-lg overflow-hidden w-full max-w-xs">
+              <Link href={`/pages/product/${product.id}`} className="  shadow-md rounded-lg overflow-hidden w-full max-w-xs">
                 <div className=" bg-primary-100">
                   <Image
                     width={500}
@@ -79,7 +79,7 @@ const FeaturedAndRelatedProducts : React.FC<FeaturedAndRelatedProductsProps> = (
                     Add to Cart
                   </button>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
