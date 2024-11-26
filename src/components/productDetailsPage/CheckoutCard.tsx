@@ -137,7 +137,7 @@ const CheckoutCard: React.FC = () => {
             className="px-3 bg-primary-100 py-1 border rounded-l-full"
           >
             -
-          </button>
+          </button> 
           <span className="px-4 bg-primary-100 py-1 border-t border-b">{quantity}</span>
           <button
             onClick={() => handleQuantityChange("increment")}
