@@ -1,4 +1,4 @@
-export interface Product {
+export interface summerProductType {
     id: number;
     name: string;
     price: number;
@@ -6,7 +6,7 @@ export interface Product {
     discount: string;
     rating : number;
   }
-export const products :  Product[] = [
+export const summerProducts :  summerProductType[] = [
     {
       id: 1,
       name: 'Indian Sharee',
